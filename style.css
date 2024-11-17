@@ -1,3 +1,21 @@
+
+:root {
+  --surface-color: #F0E8C2;
+}
+body {
+  background-image: url(assets/bg.jpg);
+  background-size: cover;
+}
+
+#page {
+  box-sizing: border-box;
+width: 800px;
+padding: 24px;
+background-color: var(--surface-color);
+border-radius: 24px ;
+margin: 48px auto;
+}
+
 img {
   border-radius: 16px;
 }
